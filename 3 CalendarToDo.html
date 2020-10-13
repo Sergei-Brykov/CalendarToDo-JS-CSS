@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>calendar</title>
+  <link rel="stylesheet" href="./CalendarToDo/css-style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="calendar">
+      <div class="calendar-head flex">
+        <button id="prev">&larr;</button>
+        <div class="data">
+
+          <span class="month">
+
+          </span>
+          <span class="year">
+
+          </span>
+
+        </div>
+        
+        <button id="next">&rarr;</button>
+      </div>
+
+      <div class="calendar-head flex">
+        <div>ПН</div>
+        <div>ВТ</div>
+        <div>СР</div>
+        <div>ЧТ</div>
+        <div>ПТ</div>
+        <div>СБ</div>
+        <div>ВС</div>
+      </div>
+      <div class="dates">
+
+      </div>
+
+
+    </div>
+
+    <div class="to-do">
+      <div class="data">
+        <h2>
+          Список дел на
+          <br>
+          <span class="day">
+            Сегодня
+          </span>
+          <span class="month">
+
+          </span>
+          <span class="year">
+
+          </span>
+        </h2>
+        <input class="input-todo" type="text" placeholder="Введите задачу">
+
+        </span>
+      </div>
+
+
+      <div id="item-parent"></div>
+    </div>
+
+  </div>
+  
+  
+  
+  
+  <script src="./CalendarToDo/ToDoList.js"></script>
+</body>
+
+</html>
